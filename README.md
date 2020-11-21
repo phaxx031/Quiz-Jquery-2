@@ -1,1 +1,1 @@
-# Quiz-Jquery-2
+### Boilerplate app structure for Quiz App project

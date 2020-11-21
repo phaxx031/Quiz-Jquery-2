@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <section class="text-centered">
+      <h1>Video Game Quiz</h1>
+    </section>
+  </header>
+
+  <main>
+    <div class="quiz-container">
+      <div id="quiz"></div>
+    </div>
+    <div class="border">
+        <p>Click the start button below if you ready to take the ultimate video game quiz!</p>
+    </div>
+    <button id="start">Start</button>
+    <div class="hide">
+        <button id="previous" class="hide">Previous Question</button>
+    </div>
+    <div class="hide">
+        <button id="next" class="hide">Next</button>
+    </div>
+    <button id="submit" class="hide">Submit Quiz</button>
+    <div id="results"></div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<!--tomorrow make this a UL and add the radio attibute into the list-->
